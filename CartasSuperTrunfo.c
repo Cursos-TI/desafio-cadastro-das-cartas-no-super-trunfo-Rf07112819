@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-    int main(){
+    int main (){
         
     char estado[50], nome_da_cidade[50], codigo_da_carta[20];
     int populaçao, numero_de_pontos_turisticos;
