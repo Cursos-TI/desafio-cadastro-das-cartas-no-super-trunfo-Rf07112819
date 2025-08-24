@@ -29,6 +29,8 @@
     printf("numero de pontos turisticos\n");
     scanf("%d", &numero_de_pontos_turisticos);
 
+    printf("codigo da carta")
+
     }
 
 
