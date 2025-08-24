@@ -5,6 +5,8 @@
     int populaçao, numero_de_pontos_turisticos;
     float area, pib;
 
+    printf("carta 1 \n");
+
     printf("codigo da carta\n");
     scanf("%s", &codigo_da_carta);
 
@@ -15,7 +17,7 @@
     scanf("%s", nome_da_cidade);
 
     printf("populaçao\n");
-    scanf("%i", &populaçao);
+    scanf("%d", &populaçao);
 
     printf("area\n");
     scanf("%f", &area);
