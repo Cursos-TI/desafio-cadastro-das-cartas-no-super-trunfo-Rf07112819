@@ -2,20 +2,19 @@
 
     int main (){
         
-    char estado[50], nome_da_cidade[50], codigo_da_carta[20];
+    char estado[50], cidade[50], codigo_da_carta[20];
     int populaçao, numero_de_pontos_turisticos;
     float area, pib;
 
-    printf("carta 1 \n");
 
     printf("codigo da carta\n");
     scanf("%s", &codigo_da_carta);
 
-    printf("qual o estado\n");
+    printf("estado\n");
     scanf("%s", &estado);
 
     printf("nome da cidade\n");
-    scanf("%s", nome_da_cidade);
+    scanf("%s", cidade);
 
     printf("populaçao\n");
     scanf("%d", &populaçao);
@@ -29,7 +28,10 @@
     printf("numero de pontos turisticos\n");
     scanf("%d", &numero_de_pontos_turisticos);
 
-    printf("codigo da carta")
+    printf("carta 1");
+    printf("codigo da carta: %s - estado: %s - cidade: %s\n ", codigo_da_carta, estado, cidade);
+    printf("populaçao: %d - area: %f - pib: %f\n", populaçao, area, pib);
+    printf("numero de pontos turisticos: %d\n");
 
     }
 
