@@ -4,11 +4,11 @@ int main() {
     // Declaração das variáveis para a carta 1
     char estado1;
     char codigo1[4];          
-    char nomeCidade1[50];
+    char nomecidade1[50];
     int populacao1;
     float area1;
     float pib1;
-    int pontosTuristicos1;
+    int pontosturisticos1;
 
     // Declaração das variáveis para a carta 2
     char estado2;
@@ -28,7 +28,7 @@ int main() {
     scanf("%s", codigo1);
 
     printf("Informe o Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade1);
+    scanf(" %[^\n]", nomecidade1);
 
     printf("Informe a Populacao: ");
     scanf("%d", &populacao1);
@@ -40,7 +40,7 @@ int main() {
     scanf("%f", &pib1);
 
     printf("Informe o Numero de Pontos Turisticos: ");
-    scanf("%d", &pontosTuristicos1);
+    scanf("%d", &pontosturisticos1);
 
     printf("\n"); // Linha em branco para separar
 
