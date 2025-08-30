@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Declaração das variáveis para a carta 1
+    // variáveis para a carta 1
     char estado1;
     char codigo1[10];          
     char nomecidade1[50];
@@ -10,7 +10,7 @@ int main() {
     float pib1;
     int pontosturisticos1;
 
-    // Declaração das variáveis para a carta 2
+    // variáveis para a carta 2
     char estado2;
     char codigo2[10];
     char nomecidade2[50];
@@ -19,29 +19,29 @@ int main() {
     float pib2;
     int pontosturisticos2;
 
-    // Instruções para o usuário - Carta 1
+    
     printf("Cadastro da Carta 1\n");
 
     printf("Informe o Estado: ");
-    scanf(" %c", &estado1); // espaço antes do %c
+    scanf(" %c", &estado1);  
 
     printf("Informe o Codigo da Carta: ");
-    scanf("%s", codigo1);
+    scanf(" %s", codigo1);   
 
     printf("Informe o Nome da Cidade: ");
-    scanf(" %[^\n]", nomecidade1); // espaço antes do % para ignorar '\n'
+    scanf(" %[^\n]", nomecidade1);  
 
     printf("Informe a Populacao: ");
-    scanf("%d", &populacao1);
+    scanf(" %d", &populacao1);
 
     printf("Informe a Area: ");
-    scanf("%f", &area1);
+    scanf(" %f", &area1);
 
     printf("Informe o PIB: ");
-    scanf("%f", &pib1);
+    scanf(" %f", &pib1);
 
     printf("Informe o Numero de Pontos Turisticos: ");
-    scanf("%d", &pontosturisticos1);
+    scanf(" %d", &pontosturisticos1);
 
     printf("\n");
 
@@ -52,26 +52,26 @@ int main() {
     scanf(" %c", &estado2);
 
     printf("Informe o Codigo da Carta: ");
-    scanf("%s", codigo2);
+    scanf(" %s", codigo2);
 
     printf("Informe o Nome da Cidade: ");
     scanf(" %[^\n]", nomecidade2);
 
     printf("Informe a Populacao: ");
-    scanf("%d", &populacao2);
+    scanf(" %d", &populacao2);
 
     printf("Informe a Area: ");
-    scanf("%f", &area2);
+    scanf(" %f", &area2);
 
     printf("Informe o PIB: ");
-    scanf("%f", &pib2);
+    scanf(" %f", &pib2);
 
     printf("Informe o Numero de Pontos Turisticos: ");
-    scanf("%d", &pontosturisticos2);
+    scanf(" %d", &pontosturisticos2);
 
     printf("\n");
 
-    // Exibindo as informações da Carta 1
+    
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Codigo: %s\n", codigo1);
@@ -83,7 +83,7 @@ int main() {
 
     printf("\n");
 
-    // Exibindo as informações da Carta 2
+   
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Codigo: %s\n", codigo2);
