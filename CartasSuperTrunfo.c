@@ -19,7 +19,7 @@ int main() {
     float pib2;
     int pontosturisticos2;
 
-    
+    // instruçoes carta 1
     printf("Cadastro da Carta 1\n");
 
     printf("Informe o Estado: ");
@@ -45,7 +45,7 @@ int main() {
 
     printf("\n");
 
-    // Instruções para o usuário - Carta 2
+    // Instruções Carta 2
     printf("Cadastro da Carta 2\n");
 
     printf("Informe o Estado: ");
@@ -71,7 +71,7 @@ int main() {
 
     printf("\n");
 
-    
+    // Impressão dos dados da Carta 1
     printf("Carta 1:\n");
     printf("Estado: %s\n", estado1);
     printf("Codigo: %s\n", codigo1);
@@ -83,7 +83,7 @@ int main() {
 
     printf("\n");
 
-   
+   // Impressão dos dados da Carta 2
     printf("Carta 2:\n");
     printf("Estado: %s\n", estado2);
     printf("Codigo: %s\n", codigo2);
